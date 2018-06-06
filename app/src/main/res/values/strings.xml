@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">aLoader</string>
+    <string name="color">ProgressColor</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="message">Message</string>
+    <string name="setbackground">SetBackground</string>
+    <string name="setmessageanimation">SetMessageAnimation</string>
+    <string name="messagecolor">MessageColor</string>
+    <string name="targetview">TargetView</string>
+    <string name="dialogview">DialogView</string>
+</resources>
