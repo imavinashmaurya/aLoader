@@ -11,7 +11,7 @@ You can either target any view as you like or directly use dialogView where you 
 # Usage
 
 
-Step 1. Add the JitPack repository to your build file
+Step 1. Add the JitsPack repository to your build file
 ```
 allprojects {
 		repositories {
@@ -26,3 +26,25 @@ allprojects {
 		implementation 'com.github.imavinashmaurya:aLoader:v1.0'
 	}
   ```
+  
+  # Code 
+  simple code 
+  ```
+aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,Orientation.BOTTOM).setProgressBarColor(Color.WHITE).message("Loading...",Color.WHITE,TextSize.SMALL).setBackgroundView(ContextCompat.getDrawable(this, R.drawable.backgroundv1));
+```
+  1. TargetView
+  ```
+  aLoader aLoader = new aLoader().setTargetView(AnyView, Context, Orientation);
+  ```
+  2. DialogView
+  ```
+  aLoader aLoader = new aLoader().setDialog(this);
+
+  ```
+  To show and hide 
+  ```
+  aLoader.start();
+  aLoader.stop();
+  ```
+  To change Progress
+  
