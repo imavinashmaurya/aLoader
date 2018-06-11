@@ -8,4 +8,21 @@ You can either target any view as you like or directly use dialogView where you 
 <img src="images/top.gif"  height="500" /><img src="images/center.gif"  height="500" /><img src="images/bottom.gif"  height="500" /><img src="images/dialog.gif"  height="500" />
 
 
+# Usage
 
+
+Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  ```
+  Step 2. Add the dependency
+```
+	dependencies {
+		implementation 'com.github.imavinashmaurya:aLoader:v1.0'
+	}
+  ```
