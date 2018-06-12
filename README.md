@@ -74,7 +74,6 @@ aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,O
 # Developed By
 
  **Avinash Maurya**
- 
  dev.avinashmaurya1.0@gmail.com 
  
  # License
