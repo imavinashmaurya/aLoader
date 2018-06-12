@@ -3,8 +3,9 @@ aLoader is simple and lightweight customizable ProgressBar, since ProgressDialog
 
 
 #### Types 
-You can either target any view as you like or directly use dialogView where you don't need to pass any view.
+You can either **target** any view as you like or directly use **dialogView** where you don't need to pass any view.
 
+#### Screenshot
 <img src="images/top.gif"  height="500" /><img src="images/center.gif"  height="500" /><img src="images/bottom.gif"  height="500" /><img src="images/dialog.gif"  height="500" />
 
 
@@ -72,7 +73,8 @@ aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,O
 
 # Developed By
 
- Avinash Maurya
+ **Avinash Maurya**
+ 
  dev.avinashmaurya1.0@gmail.com 
  
  # License
