@@ -73,5 +73,7 @@ aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,O
 # Developed By
 
  Avinash Maurya
- 
  dev.avinashmaurya1.0@gmail.com 
+ 
+ # License
+ aLoader is avialable under MIT license. See the [LICENSE](LICENSE) file for more info.
