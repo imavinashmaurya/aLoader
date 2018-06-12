@@ -27,7 +27,7 @@ allprojects {
 	}
   ```
   
-  # Code 
+  # Code and methods
   simple code 
   ```
 aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,Orientation.BOTTOM).setProgressBarColor(Color.WHITE).message("Loading...",Color.WHITE,TextSize.SMALL).setBackgroundView(ContextCompat.getDrawable(this, R.drawable.backgroundv1));
@@ -46,5 +46,23 @@ aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,O
   aLoader.start();
   aLoader.stop();
   ```
-  To change Progress
-  
+  To change ProgressBarcolor
+  ```
+  .setProgressBarColor(int color);
+  ```
+  To set message 
+  ```
+  .message(String message, int textColor,TextSize textSize);
+  here TextSize is already defined in library you can choose TextSize.SMALL,TextSize.MEDIUM,TextSize.LARGE.
+  ```
+  To change background of the ProgressBar
+  ```
+  .setBackgroundView(Drawable drawable);
+  You can pass any drawable you like but i have given two drawables in library that you can use .
+  ContextCompat.getDrawable(this, R.drawable.backgroundv1)
+  ContextCompat.getDrawable(this, R.drawable.backgroundv2)
+  ```
+ To make dailog ProgressBar cancelable or not
+ ```
+ .setDialogCancelable(boolean cancelable);
+ ```
