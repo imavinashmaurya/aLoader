@@ -8,7 +8,7 @@ You can either target any view as you like or directly use dialogView where you 
 <img src="images/top.gif"  height="500" /><img src="images/center.gif"  height="500" /><img src="images/bottom.gif"  height="500" /><img src="images/dialog.gif"  height="500" />
 
 
-# Usage
+# Include in your project
 
 
 Step 1. Add the JitsPack repository to your build file
@@ -27,7 +27,10 @@ allprojects {
 	}
   ```
   
-  # Code and methods
+  
+  # Usage
+  
+  
   simple code 
   ```
 aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,Orientation.BOTTOM).setProgressBarColor(Color.WHITE).message("Loading...",Color.WHITE,TextSize.SMALL).setBackgroundView(ContextCompat.getDrawable(this, R.drawable.backgroundv1));
@@ -46,7 +49,7 @@ aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,O
   aLoader.start();
   aLoader.stop();
   ```
-  To change ProgressBarcolor
+  To change ProgressBarColor
   ```
   .setProgressBarColor(int color);
   ```
@@ -66,3 +69,10 @@ aLoader aLoader = new aLoader().setTargetView(relativeLayout,MainActivity.this,O
  ```
  .setDialogCancelable(boolean cancelable);
  ```
+
+# Developed By
+
+ Avinash Maurya
+ 
+ 
+ dev.avinashmaurya1.0@gmail.com 
