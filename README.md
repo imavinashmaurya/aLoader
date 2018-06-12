@@ -1,5 +1,6 @@
 # aLoader
-aLoader is simple and lightweight customizable ProgressBar, since ProgressDialog is deprecated and to use ProgressBar we need to include it in xml and refrence it in java and then use it and as ProgressBar is needed in almost every page and to customize it that to if we need any text message to show along its a task so i have made this library to ease the work as this requires only one line of code and you can customize the color of ProgressBar, orientation(top,center,bottom), textSize,textColor, background of the ProgressBar as you like that to at just one line of code. 
+aLoader is simple and lightweight customizable ProgressBar, since ProgressDialog is deprecated and to use ProgressBar we need to include it in xml and refrence it in java.
+As ProgressBar is needed in almost every page and to customize it that too showing text message along with it is a tough task. So I have made this library to ease the work as this requires only one line of code. You can customize the color of ProgressBar, orientation(top,center,bottom), textSize,textColor, background of the ProgressBar as you like with just one line of code. 
 
 
 #### Types 
